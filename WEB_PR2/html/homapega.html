@@ -1,0 +1,73 @@
+<html>
+<link rel="stylesheet" type="text/css" href="../css/homepagestyle.css">
+<script src="../js/scripts.js"></script>
+
+    <body>
+    <div id="abs">
+        <div id="topbar">
+            <button id="button" onclick="add_button(); add_div()">ADD A COIN</button>
+            <button id="button2" onclick="search_button(); search_div()">SEARCH A COIN</button>
+            <button id="button3" onclick="profile_button(); profile_div()">PROFILE</button>
+        </div>
+        <div id = "add">
+            <div id = "add_a_coin">
+                    <select id = "custom_select">
+                        <option id = "custom_option" value="0">Select country</option>
+                        <option id = "custom_option" value="">Romania</option>
+                        <option id = "custom_option" value="">Germany</option>
+                        <option id = "custom_option" value="">United Kingdom</option>
+                        <option id = "custom_option" value="">USA</option>
+                    </select>
+                    <select id = "custom_select">
+                        <option id = "custom_option" value="0">Select state</option>
+                        <option id = "custom_option" value="">Very good</option>
+                        <option id = "custom_option" value=""> Lightly worn</option>
+                        <option id = "custom_option" value=""> Worn</option>
+                        <option id = "custom_option" value="">Extremely worn</option>
+                    </select>
+                    <button id = "send_photos">ADD PHOTOS</button>
+                    <form>
+                        <label>Year of creation</label><br>
+                        <input type="text" id="fname" name="fname" value=""><br>
+                    </form>
+                    <button id = "submit">Submit for approval</button>
+            </div>
+        </div>
+        <div id = "search">
+            <div id = "add_a_coin">
+                <select id = "custom_select">
+                    <option id = "custom_option" value="0">Select country</option>
+                    <option id = "custom_option" value="">Romania</option>
+                    <option id = "custom_option" value="">Germany</option>
+                    <option id = "custom_option" value="">United Kingdom</option>
+                    <option id = "custom_option" value="">USA</option>
+                </select>
+                <select id = "custom_select">
+                    <option id = "custom_option" value="0">Select state</option>
+                    <option id = "custom_option" value="">Very good</option>
+                    <option id = "custom_option" value=""> Lightly worn</option>
+                    <option id = "custom_option" value=""> Worn</option>
+                    <option id = "custom_option" value="">Extremely worn</option>
+                </select>
+                <form>
+                    <label>Year of creation</label><br>
+                    <input type="text" id="fname" name="fname" value=""><br>
+                </form>
+                <button id = "submit">Search</button>
+            </div>
+        </div>
+        <div id = "profile">
+            <div>
+                <label>Real name</label><br>
+                <input type="text" id="fname" name="fname" value=""><br>
+                <label>Shipping address</label><br>
+                <input type="text" id="fname" name="fname" value=""><br>
+                <button id = "submit">Save info</button>
+            </div>
+        </div>
+        <div id = "sales_ongoing">
+            INFO ABOUT COINS ON SALE TAKEN FROM DATA BASE(CURRENTNLY NOT IMPLEMENTED)
+        </div>
+    </div>
+    </body>
+</html>
